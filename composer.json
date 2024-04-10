@@ -1,0 +1,30 @@
+{
+    "name": "beardonn/nested-multiselect",
+    "description": "A nested multiselect field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/nova": "^4.33"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beardonn\\NestedMultiselect\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beardonn\\NestedMultiselect\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
