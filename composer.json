@@ -3,7 +3,17 @@
     "description": "A nested multiselect field.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "nested-multiselect",
+        "multiselect",
+        "select"
+    ],
+    "authors": [
+        {
+            "name": "Arjan Bruining",
+            "email": "arjan@beardonn.nl",
+            "role": "Developer/Owner"
+        }
     ],
     "license": "MIT",
     "require": {
